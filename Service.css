@@ -1,0 +1,73 @@
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0078d7;
+    color: white;
+    padding: 2.5rem;
+    text-align: center;
+}
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+}
+
+section {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.responsive-image{
+    width: 20%;
+    height: auto;
+    margin: 5%;
+;
+}
+
+section h3{
+    font-size: xx-large;
+    text-align: center;
+}
+
+li{
+    font-size:large;
+}
+
+div{
+  align-items: center;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #0078d7;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+    
+}
+
+.bouttonRetour{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-image:none;
+    }
+}
+
+.container {
+    background-image: url(Service/Image/05qOG26wzVLHG2nlWpelvCF-1..v1683302270_jpg_JPEG_1600x900_71_900x.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
